@@ -1,0 +1,62 @@
+body{
+    background-image: url('https://e0.pxfuel.com/wallpapers/927/20/desktop-wallpaper-abstract-lines-form-forms-ovals.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+h1{
+     /*COLOR DE LA LETRA*/
+    color: aliceblue;
+    /*TAMAÑO DE LA LETRA*/
+    font-size: 50px;
+    /*FUNTE DE LA LETRA COMO ARIAL ETC.*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*MARGEN HACIA LA DERECHA*/
+    margin-left: 90px;
+    /*MARGEN HACIA ARRIBA*/
+    margin-top: 50px;
+}
+
+form{
+    margin: 300px;
+    /*COLOR DE FONDO*/
+    background-color: aliceblue;
+    margin-top: 50px;
+    /*BORDES REDONDEADOS*/
+    border-radius: 5px;
+    /*CORTAR EL FONDO HACIA LA IZQUIERDA*/
+    width: 600px;
+    /*HACE LE DE COMO GRANDAR EL FONDO*/
+    padding: 30px;
+}
+
+label{
+    color: black;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+}
+
+input[type="radio"]{
+    margin: 20px;
+}
+
+input[type="button"]{
+    margin-top: 30px;
+    width: 200px; /*largo del boton*/
+    height: 50px; /*ancho del boton*/
+    border-radius: 10px;
+    background-color: chartreuse;
+    border: 1px solid blue;
+    color: blueviolet;
+    font-size: 25px;
+    font-family: cursive;
+}
