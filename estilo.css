@@ -3,6 +3,7 @@ body{
     background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
+    margin: 0px;
 }
 
 h1{
@@ -61,4 +62,16 @@ input[type="button"]{
     color: blueviolet;
     font-size: 25px;
     font-family: cursive;
+}
+
+main {
+    display: flex; /* Flexbox para el contenido principal */
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+footer{
+    background-color: cadetblue;
+    padding: 50px
 }
